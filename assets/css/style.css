@@ -1,0 +1,154 @@
+table{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+tr,td{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+.left-side{
+    width: 23%;
+}
+.right-side{
+    width: 67%;
+}
+.nav-top tr{
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.nav-top>td{
+    height: 20px;
+    background-color: rgb(63, 14, 14);
+}
+.nav-top>td>a{
+display: inline-block;
+text-decoration: none;
+margin: 10px;
+padding: 10px;
+font-size: 22px;
+color: white;
+font-weight: bold;
+}
+.nav-top .searchbox>form>button{
+    vertical-align: -5px;
+    height: 40px;
+    padding: 5px 5px 0 5px;
+    background-color: rgb(238, 234, 234);
+}
+.nav-top .searchbox>form{
+    height: 30px;
+}
+.nav-top .searchbox>form>button>i{
+    vertical-align: -5px;
+    height: 25px;
+    font-size: 16px;
+    padding: 5px;
+}
+.nav-top .searchbox>form>input{
+    vertical-align: -6px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    margin-right: -3px;
+    padding: 5px 0 5px 5px;
+    background-color: rgb(238, 234, 234);
+}
+.content{
+    box-sizing: border-box;
+    padding: 45px;
+    background-color: rgb(238, 234, 234);
+}
+.content p{
+    font-size: 18px;
+    line-height: 35px;
+    ;
+}
+.content h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 35px;
+    font-weight: bold;
+}
+.content h2{
+    font-size: 28px;
+    text-align: center;
+    margin: 35px;
+    font-weight: bold;
+}
+.content h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 35px;
+    font-weight: bold;
+}
+td.side-nav.left-side{
+    margin-top: 0;
+    background-color: rgb(160, 84, 84);
+}
+.side-nav h4{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(63, 14, 14);
+
+}
+.side-nav>ul{
+margin-right: 20%;
+}
+.side-nav>ul>li{
+    margin: 7px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(63, 14, 14);
+    width: 70%;
+}
+.side-nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    box-sizing: border-box;
+}
+hr{
+    margin-top: 30px;
+    width: 50%;
+}
+/* style for register */
+form.register{
+    width: 400px;
+    margin: 40px auto;
+    background-color: rgb(238, 234, 234);
+    padding: 15px;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+input[type="text"],input[type="email"],input[type="number"],textarea,select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+form.register button{
+    background-color: rgb(160, 84, 84);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+
